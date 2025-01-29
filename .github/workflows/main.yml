@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Hello world action step
         id: hello
-        uses: geovanams/hello-world-javascript-action@V1.1
+        uses: geovanams/hello-world-javascript-action@v1.1
         with:
           who-to-greet: 'Geovana'
       # Use the output from the `hello` step
